@@ -31,6 +31,9 @@ Note, however, Agent 2 makes no projections about the future. If all paths to th
 ## Agent 3
 Agent 3 forecasts. At every timestep, Agent 3 considers each possible move it might take (including staying in place), and ‘simulates’ the future based on the rules of Agent 2 past that point. For each possible move, this future is simulated some number of times, and then Agent 3 chooses among the moves with greatest success rates in these simulations. Agent 3 can be thought of as Agent 2, plus the ability to imagine the future.
 
+## Agent 4
+Agent 4 is an agent that executes a free strategy agent that maximizes performance.
+
 
 
 
